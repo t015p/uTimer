@@ -24,3 +24,17 @@ Overall features are influenced by "Back to Work" Timer
 - Opacity: Controls the Backdrop opacity
 - Font Family: Changes typeface
 - Lock Position: Checking this will cause the program not to move 
+
+
+Current Issues I have to fix
+- Window become solid grey after clicking other program (Not transparent)
+- Lock Position not working (what)
+- save all the preferences with ini file, maybe to the path where the exe is located?
+- Make accent color customizable (this one's hard)
+#- click accent color option with square solid color next to it, new window pops up, new window has color picker with color wheel, HSV slider(alpha not needed), HEX code in it
+<img width="250" height="478" alt="image" src="https://github.com/user-attachments/assets/3d975489-6b85-484d-8458-8ebba13aba8f" />
+This is what I'm aiming for
+
+- gotta make this portable without any additional file, just the exe file will be enough (also make it light)
+
+  Maybe that's all for now?
