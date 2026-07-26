@@ -2,6 +2,7 @@
 > Work Timer influenced by uWidget's Minimalistic Look
 
 A clean, smart, and borderless timer application built with WinUI 3
+
 Helps Freelancers, Developers, Creators track their pure working hours without any complex setups or bloated interfaces.
 
 <img width="351" height="327" alt="image" src="https://github.com/user-attachments/assets/4bf728ed-1c9b-497e-8b6c-c8ffeb1ba0dc" />
