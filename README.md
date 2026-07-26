@@ -36,7 +36,3 @@ Overall features are influenced by "Back to Work" Timer
 - Publish with Framework-Dependant mode (make the program light)
 
   Maybe that's all for now?
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
