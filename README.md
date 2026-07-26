@@ -30,8 +30,9 @@ Overall features are influenced by "Back to Work" Timer
 ## Current Issues I want to finish
 
 - Make accent color customizable (this one's hard)
-#- click accent color option with square solid color next to it, new window pops up, new window has color picker with color wheel, HSV slider(alpha not needed), HEX code in it
+#- click accent color option with square solid color next to it, new window pops up, new window has color picker with color wheel, HSV slider(alpha not needed), HEX code in it like this:
 <img width="250" height="478" alt="image" src="https://github.com/user-attachments/assets/3d975489-6b85-484d-8458-8ebba13aba8f" />
+
 - Publish with Framework-Dependant mode (make the program light)
 
   Maybe that's all for now?
