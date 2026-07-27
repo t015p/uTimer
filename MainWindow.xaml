@@ -16,7 +16,7 @@
                 RightTapped="OnDragAreaRightTapped"
                 BorderThickness="0"
                 BorderBrush="Transparent"
-                Background="#FF323432"
+                Background="#00000064"
                 HorizontalAlignment="Stretch"
                 VerticalAlignment="Stretch">
 
@@ -46,7 +46,7 @@
                                             <ColumnDefinition Width="Auto"/>
                                         </Grid.ColumnDefinitions>
                                         <TextBlock Text="Theme" VerticalAlignment="Center" Foreground="{ThemeResource MenuFlyoutItemForeground}" Margin="0,0,8,0"/>
-                                        <ComboBox x:Name="ThemeComboBox" Grid.Column="1" SelectionChanged="ThemeComboBox_SelectionChanged" SelectedIndex="0" Width="100" HorizontalAlignment="Right">
+                                        <ComboBox x:Name="ThemeComboBox" Loaded="ThemeComboBox_Loaded" Grid.Column="1" SelectionChanged="ThemeComboBox_SelectionChanged" SelectedIndex="0" Width="100" HorizontalAlignment="Right">
                                             <ComboBoxItem Content="Dark" Tag="Dark"/>
                                             <ComboBoxItem Content="Light" Tag="Light"/>
                                             <ComboBoxItem Content="System" Tag="System"/>
@@ -66,13 +66,14 @@
                                         </Grid.ColumnDefinitions>
                                         <TextBlock Text="Opacity" VerticalAlignment="Center" Foreground="{ThemeResource MenuFlyoutItemForeground}" Margin="0,0,8,0"/>
                                         <NumberBox x:Name="OpacityNumberBox"
+                                                   Loaded="OpacityNumberBox_Loaded"
                                                    Grid.Column="1"
                                                    Value="0.65"
                                                    Minimum="0.01"
                                                    Maximum="1.0"
                                                    SmallChange="0.05"
                                                    SpinButtonPlacementMode="Compact"
-                                                   Width="70"
+                                                   Width="100"
                                                    HorizontalAlignment="Right"
                                                    ValueChanged="OpacityNumberBox_ValueChanged">
                                             <NumberBox.NumberFormatter>
@@ -106,6 +107,7 @@
                                     </Grid.ColumnDefinitions>
                                     <TextBlock Text="Timeout (sec)" VerticalAlignment="Center" Foreground="{ThemeResource MenuFlyoutItemForeground}" Margin="0,0,8,0"/>
                                     <NumberBox x:Name="TimeoutNumberBox"
+                                               Loaded="TimeoutNumberBox_Loaded"
                                                Grid.Column="1"
                                                Value="3"
                                                Minimum="0"
